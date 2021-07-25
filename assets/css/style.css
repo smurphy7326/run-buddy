@@ -1,8 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
+
     /* apply changes to <header> */
     header {padding : 20px 35px;
         background-color: #39a6b2;
@@ -36,6 +43,7 @@ body {
         font-size: 36px;
         color: #fce138;
         margin: 0;
+        display: inline;
       }
       
       header a {
@@ -62,19 +70,6 @@ body {
         font-size: 22px;
       }
 
-      header h1 {
-        font-weight: bold;
-        font-size: 36px;
-        color: #fce138;
-        margin: 0;
-        display: inline;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
       footer {
           background: #fce138;
           width: 100%;
@@ -98,12 +93,6 @@ body {
           color: #024e76;
       }
 
-      * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-      }
-
       /* Hero Style Start */
       .hero {
           background-image: url(https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg);
@@ -112,6 +101,7 @@ body {
           background-position: center;
           position: relative;
       }
+/* Hero Style End*/
 
       .hero-form {
           border: 3px solid #024e76;
@@ -155,7 +145,6 @@ body {
         font-size: 16px;
       }
 
-            /* Hero Style End */
 
       .intro {
         text-align: center;
@@ -300,7 +289,8 @@ body {
         font-size: 32px;
       }
       
-      .contact-info p, .contact-info address {
+      .contact-info p, 
+      .contact-info address {
         margin: 20px 0;
         line-height: 1.5;
         font-size: 20px;
