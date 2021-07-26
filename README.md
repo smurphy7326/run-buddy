@@ -12,3 +12,5 @@ https://smurphy7326.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Sean Murphy]
+
+### ©️2019 Run Buddy, Inc
